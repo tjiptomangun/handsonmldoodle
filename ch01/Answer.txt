@@ -6,3 +6,49 @@
    with respect to some task T and some performance measure P,
    if its performance on T, as measure by P, improves with 
    experience E.
+
+2. Type of problem where Machine Learning shines
+  1. Problem which solutions require a lot of hand-tuning 
+     or long lists of rules. 
+  2. Complex solution which there is no good solution at all
+     using traditional approach or no known algorithm.
+  3. Fluctuating Environment.
+  4. Getting insights about complex problems and large amount
+     of data.
+
+3. Labelled training set is training data with desired solutions
+
+4. Two most common supervised tasks
+ a. Classification
+ b. Predict target numeric value
+
+5. Four most common supervised tasks
+ a. Clustering, grouping large amount of unlabelled data
+ b. Dimensionality reduction, simplify data without loosing
+    too much information.
+ c. Anomaly Detection, the system trained with normal instances,
+    and when it sees new instance it can tell it looks
+    like normal or anomaly
+ d. Association rule learning, dig large amount of data 
+    and discover interesting relations between attributes.
+
+6. Machine Learning Algorithm for robot to walk in terrains is
+   Reinforcement Learning
+
+7. Algorithm to segment customers into multiple groups is clustering
+
+8. Spam detection is supervised learning problem
+
+9. Online Learning System is system that learn incrementally, that is
+   new set of training data does not require system to trained using
+   all previous data plus new data.
+
+10. Out of Core Learning is train systems of huge datasets that cannot
+    fit in one's main memory
+
+11. Type of learning that relies of similarity measure is instance
+    based generalization (instance based learning)
+
+12. Model Parameter vs Hyperparameter
+    Model Parameter is parameter set by learning algoritm
+    Hyperparamer is paramter set to adjust learning algorithm 
