@@ -1,4 +1,5 @@
-1. Machine Learning is the science and art of programming computers 
+1. How would define machine learning ?
+   Machine Learning is the science and art of programming computers 
    so they can learn from data.
    Machine Learning is the field of study that gives computers 
    ability to learn without explicitly programmed.
@@ -16,11 +17,12 @@
   4. Getting insights about complex problems and large amount
      of data.
 
-3. Labelled training set is training data with desired solutions
+3. Labelled training set is training data with desired solutions for
+   each instances
 
 4. Two most common supervised tasks
  a. Classification
- b. Predict target numeric value
+ b. Predict target numeric value (regression)
 
 5. Four most common supervised tasks
  a. Clustering, grouping large amount of unlabelled data
@@ -40,7 +42,7 @@
 8. Spam detection is supervised learning problem
 
 9. Online Learning System is system that learn incrementally, that is
-   new set of training data does not require system to trained using
+   new set of training data is the last data instead of 
    all previous data plus new data.
 
 10. Out of Core Learning is train systems of huge datasets that cannot
@@ -52,3 +54,49 @@
 12. Model Parameter vs Hyperparameter
     Model Parameter is parameter set by learning algoritm
     Hyperparamer is paramter set to adjust learning algorithm 
+
+13. What do model-based learning search for ?
+    Prediction function and its parameters
+    What is the most common strategy they used to succeed?
+    1. Learn the data
+    2. Select a model
+    3. Choose parameters
+    4. Measure performance with utility function (fitness function) 
+       or cost function
+    
+    How do they make predictions ?
+    Apply selected model and parameter to new data
+
+14. Four main challenges in Machine Learning
+    1. Insufficient Quantity of Training Data
+    2. Nonrepresentative Training Data
+    3. Overfitting the Training Data
+    4. Underfitting the Training Data
+
+15. A model that performs great on training data but generalize poorly 
+    to new instances is symtomps of overfitting
+    Things we can do
+    1. Simplify the model by selecting one with fewer parameters
+    2. Gather more training data
+    3. Reduce noise in training data
+
+
+16. A test set is set of data use to measure generalization error.
+    The reason using test set is to prevent bad model exposed to customer
+
+17. Validation set is used to measure fitness of a model to a regularization 
+    hyperparameter to avoid overfitting. It is also used to compare models
+
+18. Tuning hyperparameter against test set will cause model will 
+    perform best only to the test data but not to the new data
+
+19. Cross validation is splitting train data into train and validation set.
+    It if preferred to a single validation set is to avoid wasting too much
+    data in validation set. It is also make possible to dompare models without
+    the need for a separate validation set.
+
+
+    
+
+    
+    
