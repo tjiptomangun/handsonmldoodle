@@ -1,0 +1,3 @@
+It is supervised learning, regression since its task is to predict numeric value, and batch learning since it does not need adapt to new data instantly and correctness is critical.
+
+
